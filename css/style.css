@@ -112,3 +112,13 @@ span p {
     font-weight: 400;
     color: var(--text);
 }
+
+span a {
+    line-height: 1.8em;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Responsivity */
+
