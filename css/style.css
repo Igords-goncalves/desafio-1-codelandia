@@ -88,7 +88,7 @@ input {
     padding: 25px;
  }
 
- .cabecalho {
+.cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,5 +97,6 @@ input {
     font-family:'Lexend Deca', sans-serif; 
     font-size: 16px;
     color: var(--text);
- }
+}
+
 
