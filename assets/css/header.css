@@ -1,0 +1,42 @@
+/* Header */
+header {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--linear);
+    position: absolute;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 168px;
+}
+
+.container {
+    max-width: 901px;
+    width: 100%;
+    height: auto;
+}
+
+/* Responsivity */
+@media screen and (max-width: 815px) {
+    .container {
+        width: 750px;
+    }
+    #conteudo {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 340px;
+    }
+    #conteudo {
+        top: 50%;
+    }
+}
