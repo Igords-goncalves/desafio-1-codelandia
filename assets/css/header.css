@@ -1,4 +1,5 @@
 /* Header */
+
 header {
     height: 250px;
     width: 100%;
@@ -22,7 +23,59 @@ header {
     height: auto;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 41px 0 73px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+input {
+    max-width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255,20%);
+}
+
+.txtBusca {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: var(--white);
+}
+
+input::-webkit-input-placeholder { /* Chrome */
+    color: var(--white);
+}
+ 
+input::-moz-placeholder { /* Firefox 18- */
+    color: var(--white);  
+}
+ 
+input::-moz-placeholder { /* Firefox 19+ */
+    color: var(--white);  
+}
+
+input:-ms-input-placeholder { /* Microsoft */
+    color: var(--white);
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 /* Responsivity */
+
 @media screen and (max-width: 815px) {
     .container {
         width: 750px;
