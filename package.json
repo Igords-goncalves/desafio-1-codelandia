@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igords-goncalves/desafio-1-codelandia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igords-goncalves/desafio-1-codelandia/issues"
+  },
+  "homepage": "https://github.com/Igords-goncalves/desafio-1-codelandia#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
