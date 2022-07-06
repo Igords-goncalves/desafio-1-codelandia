@@ -1,8 +1,23 @@
-@import "./css/body.css";
-@import "./css/header.css";
-@import "./css/main.css";
-@import "./css/reset.css";
-@import "./css/variables.css";
+@import "./components/Body.css";
+@import "./components/Header.css";
+@import "./components/Main.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+    --body: #F3F5F7; /*243 245 247*/
+    --title: #313131;
+    --text: #B6B6B6;
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  }
