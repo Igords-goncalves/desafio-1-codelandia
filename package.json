@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "live-server",
+    "start": "index.js",
+    "dev": "live-server ./public/index.html",
     "commit": "cz"
   },
   "repository": {

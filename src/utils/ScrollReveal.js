@@ -1,10 +1,6 @@
-// const script = document.createElement('script')
+import { ScrollReveal } from "scrollreveal";
 
-// script.setAttribute('src', 'https://unpkg.com/scrollreveal')
-
-// document.body.insertAdjacentElement("afterbegin", script)
-
-const sr = ScrollReveal({
+ScrollReveal({
     origin: "top",
     distance: "50px",
     duration: 2000,
