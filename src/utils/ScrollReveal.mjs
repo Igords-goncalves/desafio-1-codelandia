@@ -1,5 +1,3 @@
-import { ScrollReveal } from "scrollreveal";
-
 ScrollReveal({
     origin: "top",
     distance: "50px",
