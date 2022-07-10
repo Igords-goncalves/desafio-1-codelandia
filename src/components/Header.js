@@ -19,5 +19,17 @@ export function Header() {
     nav.appendChild(aMenu1).setAttribute('href', '#')
     nav.appendChild(aMenu2).setAttribute('href', '#')
 
+    aMenu1.insertAdjacentHTML("beforeend", 'Codelândia')
+    aMenu2.insertAdjacentHTML("beforeend", 'Blog')
+
+    const input = document.createElement("input")
+    input.setAttribute('class', 'txtBusca')
+    input.setAttribute('id', 'txtBusca')
+    input.setAttribute('name', 'pesquisar')
+    input.setAttribute('type', 'text')
+    input.setAttribute('placeholder', 'Pesquisar no Blog')
+
+    nav.appendChild(input)
+
     return header
 }
