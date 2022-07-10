@@ -1,0 +1,42 @@
+
+ article {
+    margin-bottom: 50px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    padding: 25px;
+ }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 22px;
+    font-family:'Lexend Deca', sans-serif; 
+    font-size: 16px;
+    color: var(--text);
+}
+
+span h2 {
+    margin-bottom: 8px;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--title);
+}
+
+span p {
+    line-height: 1.5em;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text);
+}
+
+span a {
+    line-height: 1.8em;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
