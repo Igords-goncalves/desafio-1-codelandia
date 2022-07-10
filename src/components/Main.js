@@ -1,17 +1,14 @@
+import { AppendElements } from "../utils/AppendElements.js"
+
 export function Main() {
     const main = document.createElement('main')
 
     main.setAttribute('class', 'container conteudo')
     main.setAttribute('id', 'conteudo')
 
-    // const article = document.createElement('article')
-    
-    // const appedElements = (element, child) => {
-    //     element.appendChild(child)
-    // }
+    const article = document.createElement('article')
 
-    // appedElements(main, article)
-    // appedElements(main, article)
+    AppendElements(main, article)
 
     return main
 }
