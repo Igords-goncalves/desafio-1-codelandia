@@ -1,3 +1,4 @@
+import { Article } from "./Article.js"
 import { AppendElements } from "../utils/AppendElements.js"
 
 export function Main() {
@@ -6,9 +7,7 @@ export function Main() {
     main.setAttribute('class', 'container conteudo')
     main.setAttribute('id', 'conteudo')
 
-    const article = document.createElement('article')
-
-    AppendElements(main, article)
+    main.appendChild(Article())
 
     return main
 }
