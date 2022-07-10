@@ -29,7 +29,7 @@ export function Header() {
     input.setAttribute('type', 'text')
     input.setAttribute('placeholder', 'Pesquisar no Blog')
 
-    nav.appendChild(input)
+    divNavegation.appendChild(input)
 
     return header
 }
