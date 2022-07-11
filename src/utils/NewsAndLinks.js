@@ -1,3 +1,10 @@
+export const headerDate = {
+    date1: '20 de jun, 2021',
+    date2: '3 de jan, 2021',
+    date3: '2 de jul, 2020',
+    date4: '3 de mar, 2020'
+}
+
 export const titles = {
     title1: "Kurama morta e Sasuske sem hinegan",
     title2: "Última temporada de SNK com menos episódios",
@@ -24,4 +31,11 @@ export const links = {
     link3: `https://www.crunchyroll.com/pt-br/anime-news/2017/03/19-1/rezero-boku-no-hero-e-kimi-no-na-wa-so-os-grandes-vencedores-do-sugoi-japan-award-2017`,
 
     link4: `https://jovemnerd.com.br/nerdbunker/confira-os-vencedores-do-anime-awards-2020/`
+}
+
+export const shortLink = {
+    shortLink1: 'jbox.com.br',
+    shortLink2: 'jbox.com.br',
+    shortLink3: 'crunchyroll.com.br',
+    shortLink4: 'jovemnerd.com.br'
 }
